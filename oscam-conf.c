@@ -511,7 +511,7 @@ FILE *create_config_file(const char *conf_filename)
 		cs_log("ERROR: Cannot create file \"%s\" (errno=%d %s)", temp_file, errno, strerror(errno));
 		return NULL;
 	}
-	fprintf(f, "# %s generated automatically by Streamboard OSCam %s\n",
+	fprintf(f, "# %s generated automatically by Streamboard Agent-X %s\n",
 			conf_filename, CS_VERSION);
 	fprintf(f, "# Read more: %s/blob/master/Distribution/doc/txt/%s.txt\n\n",
 			SCM_URL, conf_filename);

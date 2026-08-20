@@ -635,7 +635,7 @@ void tpl_checkOneDirDiskRevisions(const char *subdir)
 				}
 				if(checksum != curchecksum)
 				{
-					cs_log("WARNING: Your http disk template %s was created for an older revision of OSCam and was changed in original OSCam (%s,r%s). Please consider upgrading it!", path, version, revision);
+					cs_log("WARNING: Your http disk template %s was created for an older revision of Agent-X and was changed in original Agent-X (%s,r%s). Please consider upgrading it!", path, version, revision);
 				}
 				else { error = 0; }
 			}

@@ -333,11 +333,11 @@ static int32_t unlock_parental(struct s_reader *reader)
 	{
 		if(strcmp(reader->pincode, "none"))
 		{
-			rdr_log(reader, "Can't disable parental lock. Wrong PIN? OSCam used %s!", reader->pincode);
+			rdr_log(reader, "Can't disable parental lock. Wrong PIN? Agent-X used %s!", reader->pincode);
 		}
 		else
 		{
-			rdr_log(reader, "Can't disable parental lock. Wrong PIN? OSCam used 0000!");
+			rdr_log(reader, "Can't disable parental lock. Wrong PIN? Agent-X used 0000!");
 		}
 	}
 	else

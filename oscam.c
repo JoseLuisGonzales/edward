@@ -143,7 +143,7 @@ static void show_usage(void)
 			"| | | \\___ \\| |  / _` | '_ ` _ \\\n"
 			"| |_| |___) | |_| (_| | | | | | |\n"
 			" \\___/|____/ \\___\\__,_|_| |_| |_|\n\n");
-	printf("OSCam Cardserver v%s@%s (%s)\n", CS_VERSION, CS_GIT_COMMIT, CS_TARGET);
+	printf("Agent-X Cardserver v%s@%s (%s)\n", CS_VERSION, CS_GIT_COMMIT, CS_TARGET);
 	printf("Copyright (C) 2009-2026 OSCam developers.\n");
 	printf("This program is distributed under GPLv3.\n");
 	printf("OSCam is based on Streamboard mp-cardserver v0.9d written by dukat\n");
@@ -669,7 +669,7 @@ static void cs_dumpstack(int32_t sig)
 
 	if (fp)
 	{
-		fprintf(fp, "%sOSCam cardserver v%s@%s (%s)\n", buf, CS_VERSION, CS_GIT_COMMIT, CS_TARGET);
+		fprintf(fp, "%sAgent-X cardserver v%s@%s (%s)\n", buf, CS_VERSION, CS_GIT_COMMIT, CS_TARGET);
 		fprintf(fp, "FATAL: Signal %d: %s Fault. Logged StackTrace:\n\n", sig, (sig == SIGSEGV) ? "Segmentation" : ((sig == SIGBUS) ? "Bus" : "Unknown"));
 		fclose(fp);
 	}

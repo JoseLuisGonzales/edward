@@ -527,7 +527,7 @@ static void http_port_fn(const char *token, char *value, void *UNUSED(setting), 
 				}
 				else
 				{
-					fprintf(stderr, "Warning: OSCam compiled without SSL support.\n");
+					fprintf(stderr, "Warning: Agent-X compiled without SSL support.\n");
 				}
 				cfg.http_port = strtoul(value + 1, NULL, 10);
 			}
@@ -612,7 +612,7 @@ static const struct config_list webif_opts[] =
 	DEF_OPT_FUNC("httpdyndns"               , OFS(http_dyndns)              , http_dyndns_fn),
 	DEF_OPT_INT32("aulow"                   , OFS(aulow)                    , 30),
 	DEF_OPT_INT32("hideclient_to"           , OFS(hideclient_to)            , 25),
-	DEF_OPT_STR("httposcamlabel"            , OFS(http_oscam_label)         , "OSCam"),
+	DEF_OPT_STR("httposcamlabel"            , OFS(http_oscam_label)         , "Agent-X"),
 	DEF_OPT_INT32("httpemmuclean"           , OFS(http_emmu_clean)          , 256),
 	DEF_OPT_INT32("httpemmsclean"           , OFS(http_emms_clean)          , -1),
 	DEF_OPT_INT32("httpemmgclean"           , OFS(http_emmg_clean)          , -1),

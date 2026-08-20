@@ -1872,7 +1872,7 @@ const char *newcamd_get_client_name(uint16_t client_id)
 		{ 0x7363, "Scam" },
 		{ 0x7763, "WinCSC" },
 		{ 0x7878, "tsdecrypt" },
-		{ 0x8888, "OSCam" },
+		{ 0x8888, "Agent-X" },
 		{ 0x9911, "ACamd" },
 		{ 0x9922, "DVBplug" },
 		{ 0xFFFF, NULL }
