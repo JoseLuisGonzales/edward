@@ -143,7 +143,7 @@ static void show_usage(void)
 			"    / _ \\ / _` |/ _ \\ '_ \\| __|____\\  / \n"
 			"   / ___ \\ (_| |  __/ | | | ||_____/  \\ \n"
 			"  /_/   \\_\\__, |\\___|_| |_|\\__|   /_/\\_\\\n"
-		    " 		   |___/                         \n");
+		    "          |___/                         \n");
 	printf("Agent-X Cardserver v%s@%s (%s)\n", CS_VERSION, CS_GIT_COMMIT, CS_TARGET);
 	printf("Copyright (C) 2009-2026 OSCam developers.\n");
 	printf("This program is distributed under GPLv3.\n");
