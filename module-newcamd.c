@@ -22,7 +22,8 @@
 const int32_t CWS_NETMSGSIZE = 1024; // csp 0.8.9 (default: 400). This is CWS_NETMSGSIZE. The old default was 240
 int32_t portion_sid_num = 0;
 
-#define NCD_CLIENT_ID 0x8888
+// #define NCD_CLIENT_ID 0x8888
+#define NCD_CLIENT_ID 0x00
 #define CWS_FIRSTCMDNO 0xE0
 
 typedef enum
